@@ -41,15 +41,6 @@ main{
   margin-top: 15%;
 }
 
-/* .showinfo{
-  border-radius: 7px;
-  margin-top: 10px;
-  margin-bottom: 5vh;
-  background-color: var(--clr-input);
-  width: 50vh;
-  height: 5vh;
-} */
-
 #creditos{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 10px;
@@ -70,12 +61,6 @@ main{
 
 #enviar:hover{
   background-color: #198754;
-  color: aliceblue;
-  transform: translate(0, -2.5px);
-}
-
-#apagar:hover{
-  background-color: #871919;
   color: aliceblue;
   transform: translate(0, -2.5px);
 }
