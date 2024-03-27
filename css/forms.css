@@ -20,6 +20,7 @@ nav{
   color: #FFFFFE;
   font-family: 'Roboto', sans-serif;
   align-items: center;
+  user-select: none;
 }
 
 main{
@@ -27,6 +28,7 @@ main{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  user-select: none;
 }
 
 #maps{
@@ -54,18 +56,6 @@ main{
   background-color: var(--clr-navbar);
   color: var(--clr-input);
 }
-
-#apagar{
-  height: 30px;
-  width: 60px;
-  background-color: #a32121;
-  cursor: pointer;
-  border: none;
-  border-radius: 3px;
-  transition-duration: 0.3s;
-  color: whitesmoke;
-}
-
 
 #enviar{
   height: 30px;
