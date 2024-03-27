@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root{
+  --clr-navbar: #3F7394;
+  --clr-input: #FFFFFE;
+  --clr-font: #183148;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  background-color: var(--clr-navbar);
+  justify-content: space-between;
+  height: 7vh;
+  color: #FFFFFE;
+  font-family: 'Roboto', sans-serif;
+  align-items: center;
+}
+
+main{
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#maps{
+  width: 100vh;
+  background-color: #3F7394;
+  height: 87.7vh;
+}
+
+#mundi{
+  margin-top: 15%;
+}
+
+/* .showinfo{
+  border-radius: 7px;
+  margin-top: 10px;
+  margin-bottom: 5vh;
+  background-color: var(--clr-input);
+  width: 50vh;
+  height: 5vh;
+} */
+
+#creditos{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  background-color: var(--clr-navbar);
+  color: var(--clr-input);
+}
+
+#apagar{
+  height: 30px;
+  width: 60px;
+  background-color: #a32121;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  transition-duration: 0.3s;
+  color: whitesmoke;
+}
+
+
+#enviar{
+  height: 30px;
+  width: 60px;
+  background-color: #21a366;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  transition-duration: 0.3s;
+  color: whitesmoke;
+}
+
+#enviar:hover{
+  background-color: #198754;
+  color: aliceblue;
+  transform: translate(0, -2.5px);
+}
+
+#apagar:hover{
+  background-color: #871919;
+  color: aliceblue;
+  transform: translate(0, -2.5px);
+}
+
+.showinfo{
+  border-radius: 1vh;
+  margin-bottom: 2vh;
+  width: 50vh;
+  height: 4vh
+}
+
+#profpic{
+  width: 7vh;
+  margin-right: 1vh;
+  border-radius: 100%;
+}
